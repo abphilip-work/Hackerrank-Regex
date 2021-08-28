@@ -1,6 +1,6 @@
 # https://www.hackerrank.com/challenges/matching-anything-but-new-line/problem
 
-regex_pattern = r"^...\....\....\....$"	# Do not delete 'r'.
+regex_pattern = r"...\....\....\...."	# Do not delete 'r'.
 
 import re
 import sys
