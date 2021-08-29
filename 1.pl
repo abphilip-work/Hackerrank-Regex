@@ -1,4 +1,4 @@
-# # https://www.hackerrank.com/challenges/matching-specific-string/problem
+# https://www.hackerrank.com/challenges/matching-specific-string/problem
 
 $Regex_Pattern = 'hackerrank';
 
