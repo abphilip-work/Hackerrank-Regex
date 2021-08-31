@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/detect-html-tags/problem
+
 function processData(input) {
     const r = /<\s*([a-z][a-z0-9]*)[^>]*>/ig;
     const a = new Set(); 
