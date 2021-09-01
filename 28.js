@@ -28,3 +28,7 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
+
+/*
+print('\n'.join(['VALID' if re.search('^[_.]\d+[a-zA-Z]*[_]?$', input()) else 'INVALID' for _ in range(int(input()))]))
+*/
