@@ -22,3 +22,14 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
+
+/*
+import re
+ip4 = re.compile(('^'+"{v}\."*3+"{v}$").format(v = "(25[0-5]|2[0-4]\d|[01]?\d?\d)"))
+ip6 = re.compile(('^'+"{v}:"*7+"{v}$").format(v = "[\da-f]{1,4}"))
+for z in range(int(input())):
+    s = input()
+    if ip4.match(s): print('IPv4')
+    elif ip6.match(s): print('IPv6')
+    else: print('Neither')
+*/
