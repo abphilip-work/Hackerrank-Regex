@@ -1,4 +1,4 @@
-//
+// https://www.hackerrank.com/challenges/find-a-word/problem
 
 function processData(input) {
     i = input.split(/[\n\r]/).map(v=>v.trim()).filter(v=>v.length != 0);
