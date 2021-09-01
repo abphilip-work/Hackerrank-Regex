@@ -9,7 +9,7 @@ function processData(input) {
 
     test.forEach(element => {
         const r = new RegExp("\\b"+element.replace("our","ou?r")+"\\b" ,'g'); 
-        let m = w.match(re)
+        let m = w.match(r)
         if (m === null){m = 0}
         else {m = m.length}
         console.log(m);
