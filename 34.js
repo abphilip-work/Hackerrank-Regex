@@ -22,7 +22,7 @@ process.stdin.on("end", function () {
 
 /*
 import re
-for _ in range(int(input())):
+for z in range(int(input())):
     s = input()
     if(len(s)==10):
         print("YES") if(re.match(r"^[A-Z]{5}[\d+]{4}[A-Z]{1}$",s)) else print("NO")

@@ -26,6 +26,6 @@ process.stdin.on("end", function () {
 
 /*
 import re
-text = "\n".join(input() for _ in range(int(input())))
-for _ in range(int(input())): print(len(re.findall(r'\B(%s)\B' % input().strip(),text)))
+text = "\n".join(input() for z in range(int(input())))
+for z in range(int(input())): print(len(re.findall(r'\B(%s)\B' % input().strip(),text)))
 */

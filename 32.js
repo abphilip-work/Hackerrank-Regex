@@ -26,10 +26,6 @@ q = r'(?<=class=.question-hyperlink.>).+(?=</a>)'
 t = r'(?<=class=.relativetime.>).+(?=</span>)'
 s = sys.stdin.read()
 lqid=lq=lt=[]
-lqid = re.findall(qid,s)
-lq = re.findall(q,s)
-lt = re.findall(t,s)
-
-for i in range(len(lqid)):
-    print(lqid[i]+";"+lq[i]+";"+lt[i])
+lqid,lq,lt = re.findall(qid,s),re.findall(q,s),re.findall(t,s)
+for z in range(len(lqid)): print(lqid[z]+";"+lq[z]+";"+lt[z])
 */

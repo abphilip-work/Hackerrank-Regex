@@ -18,6 +18,6 @@ process.stdin.on("end", function () {
 /*
 import re
 i = ' '.join([input() for _ in range(int(input()))])
-regex = r'hackerrank'
-print(len(re.findall(regex, i, re.IGNORECASE)))
+r = r'hackerrank'
+print(len(re.findall(r, i, re.IGNORECASE)))
 */
