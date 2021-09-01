@@ -19,3 +19,8 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
+
+/*
+import re, sys
+print(';'.join(sorted(set(re.findall('<(\w+)', sys.stdin.read())))))
+*/
