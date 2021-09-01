@@ -21,3 +21,11 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
+
+/*
+import re
+Reg = r"\([+\-]?(90(\.0+)?|[1-8]\d(\.\d+)?|\d(\.\d+)?), [+\-]?(180(\.0+)?|1[0-7]\d(\.\d+)?|\d{2}(\.\d+)?|\d(\.\d+)?)\)"
+for _ in range (int(input())):
+    p = input()
+    print("Valid" if re.match(Reg,p) is not None else "Invalid")
+*/
