@@ -1,16 +1,13 @@
 // https://www.hackerrank.com/challenges/utopian-identification-number/problem
 
-function processData(input) { 
-    var a=input.split("\n"); 
-    a.shift(); 
-    var r = RegExp('^[a-z]{0,3}[0-9]{2,8}[A-Z]{3,}$');
-
-    for (var z=0;z<a.length;z++) {
-    if (r.test(a[z])) {
-       console.log("VALID");
-    } else console.log("INVALID");
-    } 
-}
+function processData(input) {
+    var r = /^[a-z]{0,3}[0-9]{2,8}[A-Z]{3,}$/;
+    var l = input.split("\n"); 
+    for(var z=1;z<l.length;z++){
+        var c = l[z];
+        console.log((r.test(c))?'VALID':'INVALID');
+    }
+} 
 
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
