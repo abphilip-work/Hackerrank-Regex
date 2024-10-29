@@ -1,1 +1,1 @@
-# Hackerrank: Regex
+# Hackerrank: Regular Expressions
